@@ -4,6 +4,4 @@ faiss-cpu
 tiktoken
 PyPDF2
 TextLoader
-Docx2txtLoader
 PyPDFLoader
-FAISS
