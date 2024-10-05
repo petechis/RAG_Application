@@ -1,11 +1,10 @@
 langchain==0.0.123  
 openai==0.27.0  
-langchain
 faiss-cpu
 tiktoken
 PyPDF2
 langchain-community
-langchain_openai
+
 
 
  
