@@ -4,6 +4,8 @@ faiss-cpu
 tiktoken
 PyPDF2
 langchain-community
+langchain_openai
+
 
 
 
