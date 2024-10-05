@@ -9,10 +9,7 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain_community.llms import OpenAI
 from langchain_community.vectorstores import Chroma
 from langchain_community.vectorstores import FAISS
-
-#from langchain.vectorstores import FAISS
-from langchain_openai import OpenAIEmbeddings
-#from langchain.llms import OpenAI
+from langchain_openai import OpenAIEmbedding
 
 import PyPDF2
 
@@ -80,7 +77,7 @@ def ask_and_get_answer(vector_store, q, k=3):
 	answer = chain.run(q) 
 	return answer 
 
-st.image('img\openai_logo_original.png')
+st.image('img/openai_logo_original.png')
 st.subheader('Simulated RAG and LLM Question/Answer Application.')
 
 with st.sidebar:
