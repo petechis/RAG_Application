@@ -3,5 +3,5 @@ langchain
 faiss-cpu
 tiktoken
 PyPDF2
-TextLoader
 PyPDFLoader
+
