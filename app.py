@@ -9,14 +9,9 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain_community.llms import OpenAI
 from langchain_community.vectorstores import Chroma
 from langchain_community.vectorstores import FAISS
-#from langchain.embeddings import OpenAIEmbeddings
-
 from langchain_community.embeddings import OpenAIEmbeddings
 
-
-
-
-import PyPDF2
+#import PyPDF2
 
 def clear_history():
     st.session_state.my_text = ""
