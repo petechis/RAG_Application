@@ -1,5 +1,4 @@
 pypdf
-doc2txt
 streamlit-chat
 streamlit
 openai
